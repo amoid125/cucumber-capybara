@@ -1,0 +1,112 @@
+GIT
+  remote: https://github.com/Ajedi32/poltergeist.git
+  revision: 14f6fdc8285630430a844a15208c97e2b014c975
+  branch: fix_windows_pgroup_error
+  specs:
+    poltergeist (1.3.0)
+      capybara (~> 2.1.0)
+      faye-websocket (>= 0.4.4, < 0.5.0)
+      http_parser.rb (~> 0.5.3)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.3.5)
+    builder (3.2.2)
+    capybara (2.1.0)
+      mime-types (>= 1.16)
+      nokogiri (>= 1.3.3)
+      rack (>= 1.0.0)
+      rack-test (>= 0.5.4)
+      xpath (~> 2.0)
+    childprocess (0.3.9)
+      ffi (~> 1.0, >= 1.0.11)
+    cmdparse (2.0.5)
+    cucumber (1.3.5)
+      builder (>= 2.1.2)
+      diff-lcs (>= 1.1.3)
+      gherkin (~> 2.12.0)
+      multi_json (~> 1.7.5)
+      multi_test (>= 0.0.2)
+    diff-lcs (1.2.4)
+    eventmachine (1.0.3)
+    eventmachine (1.0.3-x86-mingw32)
+    faye-websocket (0.4.7)
+      eventmachine (>= 0.12.0)
+    ffi (1.9.0)
+    ffi (1.9.0-x86-mingw32)
+    gherkin (2.12.0)
+      multi_json (~> 1.3)
+    gherkin (2.12.0-x86-mingw32)
+      multi_json (~> 1.3)
+    highline (1.6.19)
+    http_parser.rb (0.5.3)
+    http_parser.rb (0.5.3-x86-mingw32)
+    json (1.8.0)
+    launchy (2.3.0)
+      addressable (~> 2.3)
+    mime-types (1.25)
+    mini_portile (0.5.1)
+    multi_json (1.7.9)
+    multi_test (0.0.2)
+    net-http-persistent (2.9)
+    net-ssh (2.6.8)
+    net-ssh-gateway (1.2.0)
+      net-ssh (>= 2.6.5)
+    nokogiri (1.6.0)
+      mini_portile (~> 0.5.0)
+    nokogiri (1.6.0-x86-mingw32)
+      mini_portile (~> 0.5.0)
+    parallel (0.8.0)
+    parallel_tests (0.15.0)
+      parallel
+    rack (1.5.2)
+    rack-test (0.6.2)
+      rack (>= 1.0)
+    rest-client (1.6.7)
+      mime-types (>= 1.16)
+    rspec-expectations (2.14.0)
+      diff-lcs (>= 1.1.3, < 2.0)
+    rubyzip (0.9.9)
+    sauce (3.1.3)
+      childprocess (>= 0.1.6)
+      cmdparse (>= 2.0.2)
+      highline (>= 1.5.0)
+      json (>= 1.2.0)
+      net-http-persistent
+      net-ssh
+      net-ssh-gateway
+      parallel_tests (= 0.15.0)
+      rest-client
+      sauce_whisk (~> 0.0.8)
+      selenium-webdriver (>= 0.1.2)
+    sauce-connect (3.1.0)
+      sauce (~> 3.1)
+    sauce-cucumber (3.1.1)
+      cucumber (>= 1.2.0)
+      sauce (~> 3.1.1)
+    sauce_whisk (0.0.10)
+      rest-client
+    selenium-webdriver (2.34.0)
+      childprocess (>= 0.2.5)
+      multi_json (~> 1.0)
+      rubyzip
+      websocket (~> 1.0.4)
+    websocket (1.0.7)
+    xpath (2.0.0)
+      nokogiri (~> 1.3)
+
+PLATFORMS
+  ruby
+  x86-mingw32
+
+DEPENDENCIES
+  cucumber
+  launchy
+  poltergeist!
+  rspec-expectations
+  rubyzip (< 1.0.0)
+  sauce
+  sauce-connect
+  sauce-cucumber
+  selenium-webdriver (~> 2.34.0)

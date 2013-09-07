@@ -1,4 +1,4 @@
 cucumber-capybara
 =================
 
-Test project using stack as Cucumber, Capybara, Poltergeist and PhantomJS
+Test project using stack as Cucumber, Capybara, Saucelabs, Poltergeist and PhantomJS
